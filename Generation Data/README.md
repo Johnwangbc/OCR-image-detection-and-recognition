@@ -1,3 +1,7 @@
+  这个工程是生成人工合成的样本并打标签。原工程可以在http://blog.csdn.net/u013293750/article/details/73188934 找到。这里面有网络结构的讲解和原工程的github，如果你想生成中文样本，你应该在原工程github上找到它的中文工程。至于用法我粘贴到下面了，自己慢慢看吧。中文工程里面对于我有许多需要改的地方，比如将cv.cv改成cv2、老h5文件中有些图像不能用或找不到，这样运行add_more_data.py会报错，我也改了、除此以外可能还需要升降你的python包版本等问题，你遇到什么就根据具体问题再改吧。我上传了一些文件，这些文件都是经过改动的，你需要下载这些文件把之前对应的文件覆盖即可，如果你还有具体的其他问题，你再在我的基础上接着改吧。
+
+
+
 # SynthText from Ankush
 
 Modify from https://github.com/ankush-me/SynthText.git to generate chinese character 
